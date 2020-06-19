@@ -3,7 +3,7 @@
 	<br>
 	<br>
 	<p>
-		<a href="https://github.com/andriksantos/awesome-web-development/blob/master/Contributing.md" target="_blank">Do you want to help?</a
+		<a href="https://github.com/andriksantos/awesome-web-development/blob/master/Contributing.md" target="_blank">Do you want to help?</a>
 </div>
 
 <br>
