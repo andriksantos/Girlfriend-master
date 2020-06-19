@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="Uwu/UwU/picaron.jpg" width="300" height="300" alt="Face">
+	<img src="UwU/UwU/picaron.jpg" width="300" height="300" alt="Face">
 	<br>
 	<br>
 	<p>
@@ -23,6 +23,7 @@
 <br>
 
 ---
+
 ## Contributing
 
 **Your contributions are always welcome!** Our list is constantly changing for continuous improvement.
@@ -32,7 +33,9 @@ Please See [contribution guidelines](https://github.com/andriksantos/awesome-web
 I will keep some pull requests open if I'm not sure whether those libraries are awesome, you could [vote for them](https://github.com/andriksantos/awesome-web-development/pulls) by adding :+1: to them. Pull requests will be merged when their votes reach **1**.
 
 ---
+
 ## Share
+
 * <a href="https://twitter.com/home?status=https%3A//andriksantos.github.io/awesome-web-development/">Share in Twitter</a>
 * <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//andriksantos.github.io/awesome-web-development/&title=Awesome%20List%20Universal&summary=Awesome%20lists%20about%20all%20kinds%20of%20interesting%20topics...%20out%20the%20limit&source=https%3A//github.com/andriksantos/awesome-web-development">Share in LinkedIn</a>
 * <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//andriksantos.github.io/awesome-web-development/">Share in Facebook</a>
