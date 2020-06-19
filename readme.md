@@ -1,10 +1,9 @@
 <div align="center">
-	<img src="Uwu/UwU/Emoji_picaro.ico" width="300" height="300" alt="awesome">
+	<img src="Uwu/UwU/picaron.jpg" width="300" height="300" alt="Face">
 	<br>
 	<br>
 	<p>
-		<a href="https://github.com/andriksantos/awesome-web-development/blob/master/Contributing.md" target="_blank">Do you want to help?</a>
-	</p>
+		<a href="https://github.com/andriksantos/awesome-web-development/blob/master/Contributing.md" target="_blank">Do you want to help?</a
 </div>
 
 <br>
