@@ -18,3 +18,13 @@ C:\Users\andri\Desktop\arsm\Presentacion\bin\Debug\Presentacion.exe
 C:\Users\andri\Desktop\arsm\Presentacion\bin\Debug\Presentacion.pdb
 C:\Users\andri\Desktop\arsm\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
 C:\Users\andri\Desktop\arsm\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\andri\Desktop\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\andri\Desktop\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\andri\Desktop\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+C:\Users\andri\Desktop\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\andri\Desktop\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\andri\Desktop\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\andri\Desktop\Girlfriend-EZ-master\arsm\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\andri\Desktop\Girlfriend-EZ-master\arsm\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\andri\Desktop\Girlfriend-EZ-master\arsm\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\andri\Desktop\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.Sweetie.resources

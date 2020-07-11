@@ -1,6 +1,6 @@
 ﻿namespace Presentacion
 {
-    partial class Form1
+    partial class Sweetie
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sweetie));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.SI = new System.Windows.Forms.Button();
             this.NO = new System.Windows.Forms.Button();
@@ -55,7 +55,7 @@
             this.SI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SI.Font = new System.Drawing.Font("Open Sans Extrabold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SI.ForeColor = System.Drawing.Color.White;
-            this.SI.Location = new System.Drawing.Point(296, 296);
+            this.SI.Location = new System.Drawing.Point(287, 296);
             this.SI.Name = "SI";
             this.SI.Size = new System.Drawing.Size(75, 30);
             this.SI.TabIndex = 1;
@@ -71,15 +71,16 @@
             this.NO.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NO.Font = new System.Drawing.Font("Open Sans Extrabold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NO.ForeColor = System.Drawing.Color.Maroon;
-            this.NO.Location = new System.Drawing.Point(377, 296);
+            this.NO.Location = new System.Drawing.Point(384, 296);
             this.NO.Name = "NO";
             this.NO.Size = new System.Drawing.Size(75, 30);
             this.NO.TabIndex = 2;
             this.NO.Text = "NO";
             this.NO.UseVisualStyleBackColor = false;
+            this.NO.Click += new System.EventHandler(this.NO_Click);
             this.NO.MouseEnter += new System.EventHandler(this.button2_MouseEnter);
             // 
-            // Form1
+            // Sweetie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -89,10 +90,10 @@
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "Sweetie";
             this.Opacity = 0.95D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Sweetie";
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
