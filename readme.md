@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="UwU/UwU/picaron.jpg" width="300" height="300" alt="Face">
+	<img src="arsm/Presentacion/Resources/Logo.ico" width="256" height="256" alt="Logo App">
 	<br>
 	<br>
 	<p>
