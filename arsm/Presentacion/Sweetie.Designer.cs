@@ -55,7 +55,7 @@
             this.SI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SI.Font = new System.Drawing.Font("Open Sans Extrabold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SI.ForeColor = System.Drawing.Color.White;
-            this.SI.Location = new System.Drawing.Point(287, 296);
+            this.SI.Location = new System.Drawing.Point(285, 296);
             this.SI.Name = "SI";
             this.SI.Size = new System.Drawing.Size(75, 30);
             this.SI.TabIndex = 1;

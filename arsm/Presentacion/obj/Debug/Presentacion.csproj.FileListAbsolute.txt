@@ -28,3 +28,7 @@ C:\Users\andri\Desktop\Girlfriend-EZ-master\arsm\Presentacion\bin\Debug\Presenta
 C:\Users\andri\Desktop\Girlfriend-EZ-master\arsm\Presentacion\bin\Debug\Presentacion.exe
 C:\Users\andri\Desktop\Girlfriend-EZ-master\arsm\Presentacion\bin\Debug\Presentacion.pdb
 C:\Users\andri\Desktop\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.Sweetie.resources
+C:\Users\andri\Desktop\Girlfriend-EZ-master\arsm\Presentacion\bin\Debug\Presentacion.exe.manifest
+C:\Users\andri\Desktop\Girlfriend-EZ-master\arsm\Presentacion\bin\Debug\Presentacion.application
+C:\Users\andri\Desktop\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.exe.manifest
+C:\Users\andri\Desktop\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.application
