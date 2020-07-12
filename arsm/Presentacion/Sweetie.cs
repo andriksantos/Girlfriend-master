@@ -51,7 +51,7 @@ namespace Presentacion
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("I love 💙 sweetie", "Andrik Santos");
+            MessageBox.Show("Ya mire que le diste que si, I love 💙 sweetie", "Andrik Santos");
             //Code for msg to whatsapp
             string yourId = "ZxM359P9/Em2QSCtSMZtdWFuZHJpY2tzYW50b3MxX2F0X2dtYWlsX2RvdF9jb20=";
             string yourMobile = "+50496679577";
