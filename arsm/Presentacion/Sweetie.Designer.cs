@@ -75,6 +75,7 @@
             this.NO.Name = "NO";
             this.NO.Size = new System.Drawing.Size(75, 30);
             this.NO.TabIndex = 2;
+            this.NO.TabStop = false;
             this.NO.Text = "NO";
             this.NO.UseVisualStyleBackColor = false;
             this.NO.Click += new System.EventHandler(this.NO_Click);
