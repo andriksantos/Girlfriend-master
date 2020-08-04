@@ -63,8 +63,14 @@
     <ApplicationIcon>Logo.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\Guna2\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -76,6 +82,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="nombre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nombre.Designer.cs">
+      <DependentUpon>nombre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sweetie.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +96,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="nombre.resx">
+      <DependentUpon>nombre.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sweetie.resx">
       <DependentUpon>Sweetie.cs</DependentUpon>
     </EmbeddedResource>

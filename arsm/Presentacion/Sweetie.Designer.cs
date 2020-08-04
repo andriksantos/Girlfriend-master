@@ -29,23 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sweetie));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.SI = new System.Windows.Forms.Button();
             this.NO = new System.Windows.Forms.Button();
+            this.nombre2 = new Guna.UI2.WinForms.Guna2Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.etiquetas = new Guna.UI2.WinForms.Guna2HtmlToolTip();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Enabled = false;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(750, 500);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // SI
             // 
@@ -60,6 +51,7 @@
             this.SI.Size = new System.Drawing.Size(75, 30);
             this.SI.TabIndex = 1;
             this.SI.Text = "YES";
+            this.etiquetas.SetToolTip(this.SI, "if you accept i will be the happiest and i will make you happy");
             this.SI.UseVisualStyleBackColor = false;
             this.SI.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -77,15 +69,74 @@
             this.NO.TabIndex = 2;
             this.NO.TabStop = false;
             this.NO.Text = "NO";
+            this.etiquetas.SetToolTip(this.NO, "like no, give it yes");
             this.NO.UseVisualStyleBackColor = false;
             this.NO.Click += new System.EventHandler(this.NO_Click);
             this.NO.MouseEnter += new System.EventHandler(this.button2_MouseEnter);
+            // 
+            // nombre2
+            // 
+            this.nombre2.BackColor = System.Drawing.Color.Transparent;
+            this.nombre2.CheckedState.Parent = this.nombre2;
+            this.nombre2.CustomImages.Parent = this.nombre2;
+            this.nombre2.Enabled = false;
+            this.nombre2.FillColor = System.Drawing.Color.Transparent;
+            this.nombre2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.nombre2.ForeColor = System.Drawing.Color.White;
+            this.nombre2.HoverState.Parent = this.nombre2;
+            this.nombre2.IndicateFocus = true;
+            this.nombre2.Location = new System.Drawing.Point(269, 188);
+            this.nombre2.Name = "nombre2";
+            this.nombre2.ShadowDecoration.Parent = this.nombre2;
+            this.nombre2.Size = new System.Drawing.Size(210, 38);
+            this.nombre2.TabIndex = 4;
+            this.nombre2.Text = "nombre";
+            this.nombre2.UseTransparentBackground = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Enabled = false;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(750, 500);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
+            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
+            this.guna2Button1.Enabled = false;
+            this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.Parent = this.guna2Button1;
+            this.guna2Button1.IndicateFocus = true;
+            this.guna2Button1.Location = new System.Drawing.Point(205, 232);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
+            this.guna2Button1.Size = new System.Drawing.Size(330, 38);
+            this.guna2Button1.TabIndex = 5;
+            this.guna2Button1.Text = "¿would you accept being my girlfriend?";
+            this.guna2Button1.UseTransparentBackground = true;
+            // 
+            // etiquetas
+            // 
+            this.etiquetas.AllowLinksHandling = true;
+            this.etiquetas.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.etiquetas.MaximumSize = new System.Drawing.Size(0, 0);
             // 
             // Sweetie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(750, 500);
+            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.nombre2);
             this.Controls.Add(this.NO);
             this.Controls.Add(this.SI);
             this.Controls.Add(this.pictureBox1);
@@ -106,6 +157,9 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button SI;
         private System.Windows.Forms.Button NO;
+        public Guna.UI2.WinForms.Guna2Button nombre2;
+        public Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2HtmlToolTip etiquetas;
     }
 }
 

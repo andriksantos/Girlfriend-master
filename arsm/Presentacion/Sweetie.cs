@@ -12,6 +12,7 @@ using System.Runtime.InteropServices; //libreria para redondear form
 using System.Net;
 using System.Net.Http;
 using System.IO;
+using Presentacion;
 
 namespace Presentacion
 {
@@ -51,11 +52,11 @@ namespace Presentacion
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Ya mire que le diste que si, I love 💙 sweetie", "Andrik Santos");
+            MessageBox.Show(nombre2.Text + " Ya mire que le diste que si, I love 💙 sweetie...", "Andrik Santos");
             //Code for msg to whatsapp
             string yourId = "ZxM359P9/Em2QSCtSMZtdWFuZHJpY2tzYW50b3MxX2F0X2dtYWlsX2RvdF9jb20=";
             string yourMobile = "+50496679577";
-            string yourMessage = "Click en el boton YES...";
+            string yourMessage = nombre2.Text +  " Click en el boton YES...";
 
             try
             {
@@ -78,8 +79,8 @@ namespace Presentacion
             {
                 Console.WriteLine(se.Message);
             }
-            Console.ReadLine();
-            Environment.Exit(0);
+                Console.ReadLine();
+                Environment.Exit(0);
         }
 
         private void button2_MouseEnter(object sender, EventArgs e)
@@ -96,7 +97,7 @@ namespace Presentacion
             //Codigo for msg to whatsapp
             string yourId = "ZxM359P9/Em2QSCtSMZtdWFuZHJpY2tzYW50b3MxX2F0X2dtYWlsX2RvdF9jb20=";
             string yourMobile = "+50496679577";
-            string yourMessage = "Logro darle Click en el boton NO...";
+            string yourMessage = nombre2.Text + " Logro darle Click en el boton NO...";
 
             try
             {

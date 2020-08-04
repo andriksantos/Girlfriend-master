@@ -46,3 +46,5 @@ C:\A R S M\C#\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.exe.
 C:\A R S M\C#\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.application
 C:\A R S M\C#\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.exe
 C:\A R S M\C#\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.pdb
+C:\A R S M\C#\Girlfriend-EZ-master\arsm\Presentacion\bin\Debug\Guna.UI2.dll
+C:\A R S M\C#\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.nombre.resources
