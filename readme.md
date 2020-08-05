@@ -24,11 +24,15 @@
 
 ---
 
+
+
 <p>
 
-<img src="capture/Captura.png" width="359" height="259" alt="Capture App">
+<img src="capture/Captura.PNG" width="359" height="259" alt="Capture App">
+
 <br>
-<img src="capture/Captura2.png" width="359" height="259" alt="Capture App">
+
+<img src="capture/Captura2.PNG" width="359" height="259" alt="Capture App">
 </p>
 
 
