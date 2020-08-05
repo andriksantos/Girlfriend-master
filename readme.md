@@ -25,8 +25,11 @@
 ---
 
 <p>
+
 <p align="center" style="font-size: 30px;" >Captures</p>
+
 <img src="capture/Captura.PNG" width="359" height="259" alt="Capture App">
+
 <img src="capture/Captura2.PNG" width="359" height="259" alt="Capture App">
 </p>
 
