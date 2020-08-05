@@ -1,9 +1,11 @@
 <div align="center">
 	<img src="arsm/Presentacion/Resources/Logo.ico" width="256" height="256" alt="Logo App">
-	<br>
-	<br>
+	<p align="center" style="font-size: 30px;" >Girlfriend-master</p>
 	<p>
-		<a href="https://github.com/andriksantos/awesome-web-development/blob/master/Contributing.md" target="_blank">Do you want to help?</a>
+	<img src="https://img.shields.io/badge/c%23-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-brightgreen">
+	<img src="https://img.shields.io/badge/VisualStudio-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-green">
+	<img src="https://img.shields.io/badge/Guna-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-brightgreen">
+	</p>
 </div>
 
 <br>
@@ -20,21 +22,15 @@
 		<sub>Just type <a href="https://github.com/andriksantos/awesome-web-development#awesome-web-development-"><code>awesome list universal</code></a> to go here. Check out my <a href="https://andriksantos.github.io/">web</a> and follow me on <a href="https://twitter.com/andrik_rsm">Twitter</a>.</sub>
 </p>
 
-<br>
-
 ---
 
-
-
 <p>
-
+<p align="center" style="font-size: 30px;" >Captures</p>
 <img src="capture/Captura.PNG" width="359" height="259" alt="Capture App">
-
-<br>
-
 <img src="capture/Captura2.PNG" width="359" height="259" alt="Capture App">
 </p>
 
+---
 
 ## Contributing
 
@@ -55,7 +51,3 @@ I will keep some pull requests open if I'm not sure whether those libraries are 
 ---
 
 If you have any question about this opinionated list, do not hesitate to contact me [andricksantos1@gmail.com](mailto:andricksantos1@gmail.com) on Gmail or open an issue on GitHub.
-
----
-
-[Top](#awesome-list-universal)
