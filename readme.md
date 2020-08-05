@@ -24,6 +24,14 @@
 
 ---
 
+<p>
+
+<img src="capture/Captura.png" width="359" height="259" alt="Capture App">
+<br>
+<img src="capture/Captura2.png" width="359" height="259" alt="Capture App">
+</p>
+
+
 ## Contributing
 
 **Your contributions are always welcome!** Our list is constantly changing for continuous improvement.
