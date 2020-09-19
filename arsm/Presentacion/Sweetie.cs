@@ -30,7 +30,6 @@ namespace Presentacion
         //METHODS
         void ButtonYes()
         {
-            //MessageBox.Show(nombre2.Text + " Ya mire que le diste que si, I love 💙 sweetie...", "Andrik Santos");
             MessageBox.Show(nombre2.Text + " I looked at what you gave him, yes 💙 sweetie...", "Andrik Santos");
 
             //Code for msg to whatsapp
@@ -63,6 +62,14 @@ namespace Presentacion
             Environment.Exit(0);
         }
 
+        void MessageFormYes()
+        {
+            string MssY = "";
+        }
+        void MessageFormNot()
+        {
+            string Mss = "Logro darle en el boton que dice NO...";
+        }
         //BUTTONS
         private void button1_Click(object sender, EventArgs e)
         {
@@ -101,6 +108,14 @@ namespace Presentacion
             Console.ReadLine();
         }
 
+        private void button2_MouseEnter(object sender, EventArgs e)
+        {
+            // Aquí es donde ocurre toda la magia
+            // Es muy simple
+            int newX = r.Next(0, this.Size.Width - NO.Size.Width);
+            int newY = r.Next(0, this.Size.Height - NO.Size.Height);
+            NO.Location = new Point(newX, newY);
+        }
 
     }
 }
