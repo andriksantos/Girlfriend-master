@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sweetie));
             this.SI = new System.Windows.Forms.Button();
             this.NO = new System.Windows.Forms.Button();
@@ -35,6 +36,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.etiquetas = new Guna.UI2.WinForms.Guna2HtmlToolTip();
+            this.RedondearSweetie = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.MoverSweetie = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.ShadowSweetie = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -96,7 +100,6 @@
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Enabled = false;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
@@ -130,6 +133,14 @@
             this.etiquetas.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.etiquetas.MaximumSize = new System.Drawing.Size(0, 0);
             // 
+            // RedondearSweetie
+            // 
+            this.RedondearSweetie.TargetControl = this;
+            // 
+            // MoverSweetie
+            // 
+            this.MoverSweetie.TargetControl = this.pictureBox1;
+            // 
             // Sweetie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -146,7 +157,7 @@
             this.Opacity = 0.95D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sweetie";
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            this.Load += new System.EventHandler(this.Sweetie_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -160,6 +171,9 @@
         public Guna.UI2.WinForms.Guna2Button nombre2;
         public Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2HtmlToolTip etiquetas;
+        private Guna.UI2.WinForms.Guna2Elipse RedondearSweetie;
+        private Guna.UI2.WinForms.Guna2DragControl MoverSweetie;
+        private Guna.UI2.WinForms.Guna2ShadowForm ShadowSweetie;
     }
 }
 

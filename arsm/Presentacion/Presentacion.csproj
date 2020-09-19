@@ -82,6 +82,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addmessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addmessage.Designer.cs">
+      <DependentUpon>addmessage.cs</DependentUpon>
+    </Compile>
     <Compile Include="nombre.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="addmessage.resx">
+      <DependentUpon>addmessage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="nombre.resx">
       <DependentUpon>nombre.cs</DependentUpon>
     </EmbeddedResource>
