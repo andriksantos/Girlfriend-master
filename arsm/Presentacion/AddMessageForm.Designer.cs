@@ -35,6 +35,7 @@
             this.addmesage = new Guna.UI2.WinForms.Guna2TextBox();
             this.Ingresar = new Guna.UI2.WinForms.Guna2Button();
             this.ShadowAddMF = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
+            this.etiquetas = new Guna.UI2.WinForms.Guna2HtmlToolTip();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,7 +51,7 @@
             this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(402, 271);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(402, 270);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
@@ -110,15 +111,22 @@
             this.Ingresar.Size = new System.Drawing.Size(134, 30);
             this.Ingresar.TabIndex = 3;
             this.Ingresar.Text = "Send Message";
+            this.etiquetas.SetToolTip(this.Ingresar, "Send one menssage to Andrik Santos");
             this.Ingresar.UseTransparentBackground = true;
             this.Ingresar.Click += new System.EventHandler(this.Ingresar_Click);
+            // 
+            // etiquetas
+            // 
+            this.etiquetas.AllowLinksHandling = true;
+            this.etiquetas.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.etiquetas.MaximumSize = new System.Drawing.Size(0, 0);
             // 
             // AddMessageForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
-            this.ClientSize = new System.Drawing.Size(402, 271);
+            this.ClientSize = new System.Drawing.Size(402, 270);
             this.Controls.Add(this.Ingresar);
             this.Controls.Add(this.addmesage);
             this.Controls.Add(this.guna2PictureBox1);
@@ -140,5 +148,6 @@
         public Guna.UI2.WinForms.Guna2TextBox addmesage;
         private Guna.UI2.WinForms.Guna2Button Ingresar;
         private Guna.UI2.WinForms.Guna2ShadowForm ShadowAddMF;
+        private Guna.UI2.WinForms.Guna2HtmlToolTip etiquetas;
     }
 }
