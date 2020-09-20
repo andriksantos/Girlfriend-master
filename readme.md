@@ -5,6 +5,8 @@
 	<img src="https://img.shields.io/badge/c%23-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-brightgreen">
 	<img src="https://img.shields.io/badge/VisualStudio-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-green">
 	<img src="https://img.shields.io/badge/Guna-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-brightgreen">
+	<img src="https://img.shields.io/badge/Whatsapp-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-green">
+	<img src="https://img.shields.io/badge/niceapi.net/API-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-brightgreen">
 	</p>
 </div>
 
