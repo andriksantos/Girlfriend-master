@@ -20,7 +20,7 @@ namespace Presentacion
         {
             sombre.SetShadowForm(this);
         }
-        //METODOS
+        //METHODS
         void IngresarSweetie()
         {
             if (IngresarName.Text == "")
@@ -37,8 +37,7 @@ namespace Presentacion
                 sweetiee.nombre2.Text = IngresarName.Text;
             }
         }
-
-        //BOTONES
+        //BUTTONS
         private void Ingresar_Click(object sender, EventArgs e)
         {
             IngresarSweetie();

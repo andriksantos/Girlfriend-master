@@ -28,14 +28,16 @@ namespace Presentacion
         }
 
         //METHODS
+        string MessageYes = "addmesage.Text";
+        string MessageNo = "Logro darle en el boton que dice NO...";
+
         void ButtonYes()
         {
-            MessageBox.Show(nombre2.Text + " I looked at what you gave him, yes 💙 sweetie...", "Andrik Santos");
 
             //Code for msg to whatsapp
             string yourId = "ZxM359P9/Em2QSCtSMZtdWFuZHJpY2tzYW50b3MxX2F0X2dtYWlsX2RvdF9jb20=";
             string yourMobile = "+50496679577";
-            string yourMessage = nombre2.Text + " Click en el boton YES...";
+            string yourMessage = nombre2.Text + MessageYes;
 
             try
             {
@@ -62,27 +64,14 @@ namespace Presentacion
             Environment.Exit(0);
         }
 
-        void MessageFormYes()
+        void ButtonNot()
         {
-            string MssY = "";
-        }
-        void MessageFormNot()
-        {
-            string Mss = "Logro darle en el boton que dice NO...";
-        }
-        //BUTTONS
-        private void button1_Click(object sender, EventArgs e)
-        {
-            ButtonYes();
-        }
+            MessageBox.Show(nombre2.Text + " I looked at what you gave him, yes 💙 sweetie...", "Andrik Santos");
 
-
-        private void NO_Click(object sender, EventArgs e)
-        {
-            //Codigo for msg to whatsapp
+            //Code for msg to whatsapp
             string yourId = "ZxM359P9/Em2QSCtSMZtdWFuZHJpY2tzYW50b3MxX2F0X2dtYWlsX2RvdF9jb20=";
             string yourMobile = "+50496679577";
-            string yourMessage = nombre2.Text + " Logro darle Click en el boton NO...";
+            string yourMessage = nombre2.Text + MessageNo;
 
             try
             {
@@ -106,12 +95,23 @@ namespace Presentacion
                 Console.WriteLine(se.Message);
             }
             Console.ReadLine();
+            Environment.Exit(0);
         }
 
+        //BUTTONS
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(nombre2.Text + " I looked at what you gave him, yes 💙 sweetie...", "Andrik Santos");
+            addmessage adms = new addmessage();
+            adms.Show();
+        }
+        private void NO_Click(object sender, EventArgs e)
+        {
+            ButtonNot();
+        }
         private void button2_MouseEnter(object sender, EventArgs e)
         {
-            // Aquí es donde ocurre toda la magia
-            // Es muy simple
+            //MOVE THE BUTTON NO WITH THE MOUSE
             int newX = r.Next(0, this.Size.Width - NO.Size.Width);
             int newY = r.Next(0, this.Size.Height - NO.Size.Height);
             NO.Location = new Point(newX, newY);
