@@ -40,6 +40,7 @@
             this.MoverSweetie = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.ShadowSweetie = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -147,11 +148,27 @@
             this.AnimateWindow1.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_BLEND;
             this.AnimateWindow1.Interval = 1000;
             // 
+            // guna2Button2
+            // 
+            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
+            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
+            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.HoverState.Parent = this.guna2Button2;
+            this.guna2Button2.Location = new System.Drawing.Point(179, 133);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
+            this.guna2Button2.Size = new System.Drawing.Size(180, 45);
+            this.guna2Button2.TabIndex = 6;
+            this.guna2Button2.Text = "guna2Button2";
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
+            // 
             // Sweetie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(750, 500);
+            this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.nombre2);
             this.Controls.Add(this.NO);
@@ -181,6 +198,7 @@
         private Guna.UI2.WinForms.Guna2DragControl MoverSweetie;
         private Guna.UI2.WinForms.Guna2ShadowForm ShadowSweetie;
         public Guna.UI2.WinForms.Guna2AnimateWindow AnimateWindow1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
     }
 }
 

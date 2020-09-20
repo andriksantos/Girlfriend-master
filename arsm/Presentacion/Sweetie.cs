@@ -28,6 +28,7 @@ namespace Presentacion
             this.ShadowSweetie.SetShadowForm(this);
         }
         //METHODS
+
         string MessageYes = "addmesage.Text";
         string MessageNo = "Logro darle en el boton que dice NO...";
        void ButtonYes()
@@ -56,7 +57,7 @@ namespace Presentacion
             }
             catch (SystemException se)
             {
-                MessageBox.Show("Se necesita conexxion a internet");
+                MessageBox.Show("You need conection to internet for used this application...", "Sweetie ❤");
                 Console.WriteLine(se.Message);
             }
             Console.ReadLine();
@@ -87,6 +88,11 @@ namespace Presentacion
             int newX = r.Next(0, this.Size.Width - NO.Size.Width);
             int newY = r.Next(0, this.Size.Height - NO.Size.Height);
             NO.Location = new Point(newX, newY);
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            ButtonYes();
         }
     }
 }
