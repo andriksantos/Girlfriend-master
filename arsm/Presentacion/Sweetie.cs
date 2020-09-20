@@ -70,9 +70,10 @@ namespace Presentacion
         //BUTTONS
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(nombre2.Text + ", I looked at what you gave him, YES! I 💙 sweetie...", "Andrik Santos");
+            MessageBox.Show(nombre2.Text + ", I looked at what you gave him, YES! \n I 💙 sweetie...", "Andrik Santos");
             AddMessageForm adms = new AddMessageForm();
             adms.Show();
+            this.Hide();
         }
         private void NO_Click(object sender, EventArgs e)
         {

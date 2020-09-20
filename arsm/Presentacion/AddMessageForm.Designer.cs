@@ -34,6 +34,7 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.addmesage = new Guna.UI2.WinForms.Guna2TextBox();
             this.Ingresar = new Guna.UI2.WinForms.Guna2Button();
+            this.ShadowAddMF = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,11 +58,13 @@
             // 
             // addmesage
             // 
+            this.addmesage.Animated = true;
             this.addmesage.AutoRoundedCorners = true;
             this.addmesage.BackColor = System.Drawing.Color.Transparent;
             this.addmesage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.addmesage.BorderColor = System.Drawing.Color.Transparent;
             this.addmesage.BorderRadius = 6;
+            this.addmesage.BorderThickness = 0;
             this.addmesage.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.addmesage.DefaultText = "";
             this.addmesage.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -74,7 +77,6 @@
             this.addmesage.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.addmesage.HoverState.Parent = this.addmesage;
             this.addmesage.Location = new System.Drawing.Point(12, 12);
-            this.addmesage.Modified = true;
             this.addmesage.Multiline = true;
             this.addmesage.Name = "addmesage";
             this.addmesage.PasswordChar = '\0';
@@ -102,7 +104,7 @@
             this.Ingresar.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.Ingresar.HoverState.ForeColor = System.Drawing.Color.White;
             this.Ingresar.HoverState.Parent = this.Ingresar;
-            this.Ingresar.Location = new System.Drawing.Point(137, 156);
+            this.Ingresar.Location = new System.Drawing.Point(134, 170);
             this.Ingresar.Name = "Ingresar";
             this.Ingresar.ShadowDecoration.Parent = this.Ingresar;
             this.Ingresar.Size = new System.Drawing.Size(134, 30);
@@ -111,7 +113,7 @@
             this.Ingresar.UseTransparentBackground = true;
             this.Ingresar.Click += new System.EventHandler(this.Ingresar_Click);
             // 
-            // addmessage
+            // AddMessageForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -122,9 +124,10 @@
             this.Controls.Add(this.guna2PictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "addmessage";
+            this.Name = "AddMessageForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "addmessage";
+            this.Load += new System.EventHandler(this.AddMessageForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -136,5 +139,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         public Guna.UI2.WinForms.Guna2TextBox addmesage;
         private Guna.UI2.WinForms.Guna2Button Ingresar;
+        private Guna.UI2.WinForms.Guna2ShadowForm ShadowAddMF;
     }
 }
