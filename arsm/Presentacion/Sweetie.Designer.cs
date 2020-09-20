@@ -39,7 +39,6 @@
             this.RedondearSweetie = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.MoverSweetie = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.ShadowSweetie = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
-            this.AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -142,11 +141,6 @@
             // 
             this.MoverSweetie.TargetControl = this.pictureBox1;
             // 
-            // AnimateWindow1
-            // 
-            this.AnimateWindow1.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_BLEND;
-            this.AnimateWindow1.Interval = 1000;
-            // 
             // Sweetie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -180,7 +174,6 @@
         private Guna.UI2.WinForms.Guna2Elipse RedondearSweetie;
         private Guna.UI2.WinForms.Guna2DragControl MoverSweetie;
         private Guna.UI2.WinForms.Guna2ShadowForm ShadowSweetie;
-        public Guna.UI2.WinForms.Guna2AnimateWindow AnimateWindow1;
     }
 }
 

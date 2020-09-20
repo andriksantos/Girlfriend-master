@@ -21,14 +21,14 @@ namespace Presentacion
         static public string MessageEnterName = "Sweetie enter your Name first...";
         static public string MessageEnterMessage = "Sweetie enter your message first...";
         static public string ADDmesage;
-        static public string nextMSG = " Wrote the following message... ";
+        static public string nextMSG = " Wrote the following message... \n \n";
 
         //METHOD OF CLICK ON BUTTON YES
         static public void ButtonYes(){
         //Code for msg to whatsapp
         string yourId = "ZxM359P9/Em2QSCtSMZtdWFuZHJpY2tzYW50b3MxX2F0X2dtYWlsX2RvdF9jb20=";
         string yourMobile = "+50496679577";
-        string yourMessage = Dato.Valor + Dato.nextMSG +  Dato.ADDmesage ;
+        string yourMessage = Dato.Valor + Dato.nextMSG +  Dato.ADDmesage + " \n ";
 
             try
             {

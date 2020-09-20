@@ -34,8 +34,8 @@
             this.IngresarName = new Guna.UI2.WinForms.Guna2TextBox();
             this.Ingresar = new Guna.UI2.WinForms.Guna2Button();
             this.mover = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.sombre = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.sombre = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.etiqueas = new Guna.UI2.WinForms.Guna2HtmlToolTip();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -66,7 +66,6 @@
             this.IngresarName.HoverState.Parent = this.IngresarName;
             this.IngresarName.Location = new System.Drawing.Point(104, 96);
             this.IngresarName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.IngresarName.MaxLength = 30;
             this.IngresarName.Name = "IngresarName";
             this.IngresarName.PasswordChar = '\0';
             this.IngresarName.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
@@ -127,7 +126,7 @@
             this.etiqueas.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.etiqueas.MaximumSize = new System.Drawing.Size(0, 0);
             // 
-            // nombre
+            // Nombre
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -137,7 +136,7 @@
             this.Controls.Add(this.guna2PictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "nombre";
+            this.Name = "Nombre";
             this.Opacity = 0.95D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "nombre";

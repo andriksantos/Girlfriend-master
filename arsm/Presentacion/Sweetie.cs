@@ -24,7 +24,6 @@ namespace Presentacion
         }
         private void Sweetie_Load(object sender, EventArgs e)
         {
-            AnimateWindow1.SetAnimateWindow(this);
             this.ShadowSweetie.SetShadowForm(this);
         }
         //BUTTONS
@@ -32,8 +31,8 @@ namespace Presentacion
         {
             MessageBox.Show(Dato.Valor + Dato.MessageYES , "Andrik Santos");
             AddMessageForm adms = new AddMessageForm();
-            adms.Show();
             this.Hide();
+            adms.Show();
         }
         private void NO_Click(object sender, EventArgs e)
         {

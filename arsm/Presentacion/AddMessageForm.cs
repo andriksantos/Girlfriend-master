@@ -23,6 +23,7 @@ namespace Presentacion
         public string _mensaje;
         private void AddMessageForm_Load(object sender, EventArgs e)
         {
+            guna2AnimateWindow1.SetAnimateWindow(this);
             ShadowAddMF.SetShadowForm(this);
             nombre3.Text = Dato.Valor;
         }
@@ -37,6 +38,8 @@ namespace Presentacion
             {
                 Dato.ADDmesage =  addmesage.Text;
                 Dato.ButtonYes();
+                Sendmsg.Text = "Message sent 💌";
+
             }
         }
 
