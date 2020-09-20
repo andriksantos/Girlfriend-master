@@ -29,8 +29,9 @@ namespace Presentacion
         }
         //METHODS
 
-        string MessageYes = "addmesage.Text";
-        string MessageNo = "Logro darle en el boton que dice NO...";
+        string MessageYes = ", I looked at what you gave him, YES! \n I 💙 sweetie...";
+        string MessageNo = ", I looked at what you gave him, NO! \n 💔💔💔💔💔";
+
        void ButtonYes()
         {
             //Code for msg to whatsapp
@@ -66,17 +67,16 @@ namespace Presentacion
 
         void ButtonNot()
         {
-
+            MessageBox.Show(nombre2.Text + MessageNo, "Andrik Santos");
         }
 
         //BUTTONS
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(nombre2.Text + ", I looked at what you gave him, YES! \n I 💙 sweetie...", "Andrik Santos");
+            MessageBox.Show(nombre2.Text + MessageYes , "Andrik Santos");
             AddMessageForm adms = new AddMessageForm();
             adms.Show();
             this.Hide();
-//            AddMessageForm.nombre3.Text = nombre2.Text;
         }
         private void NO_Click(object sender, EventArgs e)
         {

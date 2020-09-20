@@ -21,7 +21,7 @@ namespace Presentacion
             sombre.SetShadowForm(this);
         }
         //METHODS
-        void IngresarSweetie()
+        public void IngresarSweetie()
         {
             if (IngresarName.Text == "")
             {
