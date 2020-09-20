@@ -37,6 +37,7 @@
             this.ShadowAddMF = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.etiquetas = new Guna.UI2.WinForms.Guna2HtmlToolTip();
             this.nombre3 = new Guna.UI2.WinForms.Guna2Button();
+            this.MoverAddMF = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -129,17 +130,21 @@
             this.nombre3.CustomImages.Parent = this.nombre3;
             this.nombre3.Enabled = false;
             this.nombre3.FillColor = System.Drawing.Color.Transparent;
-            this.nombre3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.nombre3.Font = new System.Drawing.Font("Brush Script MT", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nombre3.ForeColor = System.Drawing.Color.White;
             this.nombre3.HoverState.Parent = this.nombre3;
             this.nombre3.IndicateFocus = true;
-            this.nombre3.Location = new System.Drawing.Point(103, 12);
+            this.nombre3.Location = new System.Drawing.Point(12, 12);
             this.nombre3.Name = "nombre3";
             this.nombre3.ShadowDecoration.Parent = this.nombre3;
-            this.nombre3.Size = new System.Drawing.Size(210, 38);
+            this.nombre3.Size = new System.Drawing.Size(378, 38);
             this.nombre3.TabIndex = 5;
             this.nombre3.Text = "nombre";
             this.nombre3.UseTransparentBackground = true;
+            // 
+            // MoverAddMF
+            // 
+            this.MoverAddMF.TargetControl = this.guna2PictureBox1;
             // 
             // AddMessageForm
             // 
@@ -171,5 +176,6 @@
         private Guna.UI2.WinForms.Guna2ShadowForm ShadowAddMF;
         private Guna.UI2.WinForms.Guna2HtmlToolTip etiquetas;
         public Guna.UI2.WinForms.Guna2Button nombre3;
+        private Guna.UI2.WinForms.Guna2DragControl MoverAddMF;
     }
 }

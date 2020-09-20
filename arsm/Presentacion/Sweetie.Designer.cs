@@ -86,14 +86,14 @@
             this.nombre2.CustomImages.Parent = this.nombre2;
             this.nombre2.Enabled = false;
             this.nombre2.FillColor = System.Drawing.Color.Transparent;
-            this.nombre2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.nombre2.Font = new System.Drawing.Font("Milkshake", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nombre2.ForeColor = System.Drawing.Color.White;
             this.nombre2.HoverState.Parent = this.nombre2;
             this.nombre2.IndicateFocus = true;
-            this.nombre2.Location = new System.Drawing.Point(269, 188);
+            this.nombre2.Location = new System.Drawing.Point(205, 188);
             this.nombre2.Name = "nombre2";
             this.nombre2.ShadowDecoration.Parent = this.nombre2;
-            this.nombre2.Size = new System.Drawing.Size(210, 38);
+            this.nombre2.Size = new System.Drawing.Size(330, 38);
             this.nombre2.TabIndex = 4;
             this.nombre2.Text = "nombre";
             this.nombre2.UseTransparentBackground = true;

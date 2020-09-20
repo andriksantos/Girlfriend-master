@@ -13,16 +13,20 @@ namespace Presentacion
 {
     public class Dato
     {
+        //METHODS OF MESSAGES
         static public string Valor;
         static public string MessageYES = ", I looked at what you gave him, YES! \n I 💙 sweetie...";
-        static public string MessageNO = ", I looked at what you gave him, NO! \n 💔💔💔💔💔";
+        static public string MessageNO = ", I looked at what you gave him, NO! \n 💔 💔 💔 💔 💔";
         static public string MessageError = "You need conection to internet for used this application...";
+        static public string MessageEnterName = "Sweetie enter your Name first...";
+        static public string ADDmesage;
 
+        //METHOD OF CLICK ON BUTTON YES
         static public void ButtonYes(){
             //Code for msg to whatsapp
             string yourId = "ZxM359P9/Em2QSCtSMZtdWFuZHJpY2tzYW50b3MxX2F0X2dtYWlsX2RvdF9jb20=";
             string yourMobile = "+50496679577";
-            string yourMessage = Dato.Valor + Dato.MessageYES;
+            string yourMessage = Dato.Valor + " Writing the next message... " +  Dato.ADDmesage ;
 
             try
             {

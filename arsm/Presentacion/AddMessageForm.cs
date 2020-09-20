@@ -27,11 +27,10 @@ namespace Presentacion
             nombre3.Text = Dato.Valor;
         }
 
-
-
         private void Ingresar_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Dato.ADDmesage =  addmesage.Text;
+            Dato.ButtonYes();
         }
 
     }

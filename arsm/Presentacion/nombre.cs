@@ -25,7 +25,7 @@ namespace Presentacion
         {
             if (IngresarName.Text == "")
             {
-                MessageBox.Show("Sweetie enter your Name first..." , "Hi ❤, First!");
+                MessageBox.Show(Dato.MessageEnterName, "Hi ❤, First!");
                 IngresarName.Focus();
             }
             else
