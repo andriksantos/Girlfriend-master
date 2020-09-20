@@ -32,7 +32,7 @@
 
 <img src="capture/Captura2.PNG" width="359" height="259" alt="Capture App">
 
-<img src="capture/Captura3.PNG" width="359" height="259" alt="Capture App">
+<img src="capture/Captura3.png" width="359" height="259" alt="Capture App">
 
 </p>
 
