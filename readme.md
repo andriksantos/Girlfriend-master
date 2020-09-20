@@ -25,11 +25,14 @@
 ---
 
 <p align="center" style="font-size: 30px;" >Captures</p>
+<p align="center" style="font-size: 15px;" >Declare yourself to your crush in a unique way...</p>
 <p>
 
 <img src="capture/Captura.PNG" width="359" height="259" alt="Capture App">
 
 <img src="capture/Captura2.PNG" width="359" height="259" alt="Capture App">
+
+<img src="capture/Captura3.PNG" width="359" height="259" alt="Capture App">
 
 </p>
 
