@@ -77,6 +77,7 @@ namespace Presentacion
             AddMessageForm adms = new AddMessageForm();
             adms.Show();
             this.Hide();
+            adms.nombre3.Text = nombre2.Text;
         }
         private void NO_Click(object sender, EventArgs e)
         {
