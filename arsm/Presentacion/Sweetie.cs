@@ -26,6 +26,7 @@ namespace Presentacion
         {
             AnimateWindow1.SetAnimateWindow(this);
             this.ShadowSweetie.SetShadowForm(this);
+            
         }
         //METHODS
 
@@ -37,7 +38,7 @@ namespace Presentacion
             //Code for msg to whatsapp
             string yourId = "ZxM359P9/Em2QSCtSMZtdWFuZHJpY2tzYW50b3MxX2F0X2dtYWlsX2RvdF9jb20=";
             string yourMobile = "+50496679577";
-            string yourMessage = nombre2.Text + MessageYes;
+            string yourMessage = Dato.Valor + MessageYes;
 
             try
             {
@@ -67,17 +68,16 @@ namespace Presentacion
 
         void ButtonNot()
         {
-            MessageBox.Show(nombre2.Text + MessageNo, "Andrik Santos");
+            MessageBox.Show(Dato.Valor + MessageNo, "Andrik Santos");
         }
 
         //BUTTONS
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(nombre2.Text + MessageYes , "Andrik Santos");
+            MessageBox.Show(Dato.Valor + MessageYes , "Andrik Santos");
             AddMessageForm adms = new AddMessageForm();
             adms.Show();
             this.Hide();
-            adms.nombre3.Text = nombre2.Text;
         }
         private void NO_Click(object sender, EventArgs e)
         {

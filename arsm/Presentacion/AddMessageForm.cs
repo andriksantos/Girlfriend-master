@@ -20,11 +20,15 @@ namespace Presentacion
         {
             InitializeComponent();
         }
+        public string _mensaje;
         private void AddMessageForm_Load(object sender, EventArgs e)
         {
             ShadowAddMF.SetShadowForm(this);
+            nombre3.Text = Dato.Valor;
         }
-        
+
+
+
         private void Ingresar_Click(object sender, EventArgs e)
         {
             Application.Exit();

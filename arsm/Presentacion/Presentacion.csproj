@@ -88,6 +88,7 @@
     <Compile Include="AddMessageForm.Designer.cs">
       <DependentUpon>AddMessageForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Dato.cs" />
     <Compile Include="Nombre.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -33,7 +33,8 @@ namespace Presentacion
                 Sweetie sweetiee = new Sweetie();
                 sweetiee.Show();
                 this.Hide();
-                sweetiee.nombre2.Text = IngresarName.Text;
+                Dato.Valor = IngresarName.Text;
+                sweetiee.nombre2.Text = Dato.Valor;
             }
         }
         //BUTTONS
