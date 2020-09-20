@@ -21,7 +21,7 @@ namespace Presentacion
         static public string MessageEnterName = "Sweetie enter your Name first...";
         static public string MessageEnterMessage = "Sweetie enter your message first...";
         static public string ADDmesage;
-        static public string nextMSG = "wrote the following message";
+        static public string nextMSG = " Wrote the following message... ";
 
         //METHOD OF CLICK ON BUTTON YES
         static public void ButtonYes(){

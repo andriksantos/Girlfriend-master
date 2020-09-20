@@ -134,7 +134,7 @@
             this.nombre3.ForeColor = System.Drawing.Color.White;
             this.nombre3.HoverState.Parent = this.nombre3;
             this.nombre3.IndicateFocus = true;
-            this.nombre3.Location = new System.Drawing.Point(12, 12);
+            this.nombre3.Location = new System.Drawing.Point(12, 21);
             this.nombre3.Name = "nombre3";
             this.nombre3.ShadowDecoration.Parent = this.nombre3;
             this.nombre3.Size = new System.Drawing.Size(378, 38);
