@@ -24,10 +24,11 @@ namespace Presentacion
         {
             ShadowAddMF.SetShadowForm(this);
         }
-
+        
+        string caja = "";
         private void Ingresar_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
     }

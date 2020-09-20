@@ -36,6 +36,7 @@
             this.Ingresar = new Guna.UI2.WinForms.Guna2Button();
             this.ShadowAddMF = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.etiquetas = new Guna.UI2.WinForms.Guna2HtmlToolTip();
+            this.nombre3 = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,7 +65,7 @@
             this.addmesage.BackColor = System.Drawing.Color.Transparent;
             this.addmesage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.addmesage.BorderColor = System.Drawing.Color.Transparent;
-            this.addmesage.BorderRadius = 6;
+            this.addmesage.BorderRadius = 41;
             this.addmesage.BorderThickness = 0;
             this.addmesage.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.addmesage.DefaultText = "";
@@ -77,14 +78,14 @@
             this.addmesage.FocusedState.Parent = this.addmesage;
             this.addmesage.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.addmesage.HoverState.Parent = this.addmesage;
-            this.addmesage.Location = new System.Drawing.Point(12, 12);
+            this.addmesage.Location = new System.Drawing.Point(12, 65);
             this.addmesage.Multiline = true;
             this.addmesage.Name = "addmesage";
             this.addmesage.PasswordChar = '\0';
             this.addmesage.PlaceholderText = "¿Algo que decir?";
             this.addmesage.SelectedText = "";
             this.addmesage.ShadowDecoration.Parent = this.addmesage;
-            this.addmesage.Size = new System.Drawing.Size(378, 138);
+            this.addmesage.Size = new System.Drawing.Size(378, 85);
             this.addmesage.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.addmesage.TabIndex = 1;
             this.addmesage.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -121,12 +122,32 @@
             this.etiquetas.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.etiquetas.MaximumSize = new System.Drawing.Size(0, 0);
             // 
+            // nombre3
+            // 
+            this.nombre3.BackColor = System.Drawing.Color.Transparent;
+            this.nombre3.CheckedState.Parent = this.nombre3;
+            this.nombre3.CustomImages.Parent = this.nombre3;
+            this.nombre3.Enabled = false;
+            this.nombre3.FillColor = System.Drawing.Color.Transparent;
+            this.nombre3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.nombre3.ForeColor = System.Drawing.Color.White;
+            this.nombre3.HoverState.Parent = this.nombre3;
+            this.nombre3.IndicateFocus = true;
+            this.nombre3.Location = new System.Drawing.Point(103, 12);
+            this.nombre3.Name = "nombre3";
+            this.nombre3.ShadowDecoration.Parent = this.nombre3;
+            this.nombre3.Size = new System.Drawing.Size(210, 38);
+            this.nombre3.TabIndex = 5;
+            this.nombre3.Text = "nombre";
+            this.nombre3.UseTransparentBackground = true;
+            // 
             // AddMessageForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
             this.ClientSize = new System.Drawing.Size(402, 270);
+            this.Controls.Add(this.nombre3);
             this.Controls.Add(this.Ingresar);
             this.Controls.Add(this.addmesage);
             this.Controls.Add(this.guna2PictureBox1);
@@ -149,5 +170,6 @@
         private Guna.UI2.WinForms.Guna2Button Ingresar;
         private Guna.UI2.WinForms.Guna2ShadowForm ShadowAddMF;
         private Guna.UI2.WinForms.Guna2HtmlToolTip etiquetas;
+        public Guna.UI2.WinForms.Guna2Button nombre3;
     }
 }

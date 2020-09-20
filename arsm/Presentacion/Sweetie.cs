@@ -24,6 +24,7 @@ namespace Presentacion
         }
         private void Sweetie_Load(object sender, EventArgs e)
         {
+            AnimateWindow1.SetAnimateWindow(this);
             this.ShadowSweetie.SetShadowForm(this);
         }
         //METHODS
@@ -74,6 +75,7 @@ namespace Presentacion
             AddMessageForm adms = new AddMessageForm();
             adms.Show();
             this.Hide();
+//            AddMessageForm.nombre3.Text = nombre2.Text;
         }
         private void NO_Click(object sender, EventArgs e)
         {
