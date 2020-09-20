@@ -39,6 +39,7 @@
             this.nombre3 = new Guna.UI2.WinForms.Guna2Button();
             this.MoverAddMF = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
+            this.CerrarApp = new Guna.UI2.WinForms.Guna2ControlBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -112,7 +113,7 @@
             this.Sendmsg.Name = "Sendmsg";
             this.Sendmsg.ShadowDecoration.Parent = this.Sendmsg;
             this.Sendmsg.Size = new System.Drawing.Size(134, 30);
-            this.Sendmsg.TabIndex = 3;
+            this.Sendmsg.TabIndex = 2;
             this.Sendmsg.Text = "Send Message";
             this.etiquetas.SetToolTip(this.Sendmsg, "Send one menssage to Andrik Santos");
             this.Sendmsg.UseTransparentBackground = true;
@@ -152,12 +153,28 @@
             this.guna2AnimateWindow1.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_BLEND;
             this.guna2AnimateWindow1.Interval = 2000;
             // 
+            // CerrarApp
+            // 
+            this.CerrarApp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.CerrarApp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CerrarApp.FillColor = System.Drawing.Color.White;
+            this.CerrarApp.HoverState.Parent = this.CerrarApp;
+            this.CerrarApp.IconColor = System.Drawing.Color.Red;
+            this.CerrarApp.Location = new System.Drawing.Point(357, 0);
+            this.CerrarApp.Name = "CerrarApp";
+            this.CerrarApp.ShadowDecoration.Parent = this.CerrarApp;
+            this.CerrarApp.Size = new System.Drawing.Size(45, 29);
+            this.CerrarApp.TabIndex = 3;
+            this.etiquetas.SetToolTip(this.CerrarApp, "Exit App");
+            this.CerrarApp.Click += new System.EventHandler(this.guna2ControlBox1_Click);
+            // 
             // AddMessageForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
             this.ClientSize = new System.Drawing.Size(402, 270);
+            this.Controls.Add(this.CerrarApp);
             this.Controls.Add(this.nombre3);
             this.Controls.Add(this.Sendmsg);
             this.Controls.Add(this.addmesage);
@@ -184,5 +201,6 @@
         public Guna.UI2.WinForms.Guna2Button nombre3;
         private Guna.UI2.WinForms.Guna2DragControl MoverAddMF;
         public Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
+        private Guna.UI2.WinForms.Guna2ControlBox CerrarApp;
     }
 }

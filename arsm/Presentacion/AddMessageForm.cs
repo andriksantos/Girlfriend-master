@@ -26,6 +26,7 @@ namespace Presentacion
             guna2AnimateWindow1.SetAnimateWindow(this);
             ShadowAddMF.SetShadowForm(this);
             nombre3.Text = Dato.Valor;
+            CerrarApp.Visible = false;
         }
 
         private void Ingresar_Click(object sender, EventArgs e)
@@ -39,9 +40,12 @@ namespace Presentacion
                 Dato.ADDmesage =  addmesage.Text;
                 Dato.ButtonYes();
                 Sendmsg.Text = "Message sent 💌";
-
+                CerrarApp.Visible = true;
             }
         }
-
+        private void guna2ControlBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

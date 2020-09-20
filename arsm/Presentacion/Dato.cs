@@ -44,6 +44,7 @@ namespace Presentacion
                 }
                 using (StreamReader streamIn = new StreamReader(request.GetResponse().GetResponseStream()))
                 {
+                    //MessageBox.Show("Message sent 💌");
                     Console.WriteLine(streamIn.ReadToEnd());
                 }
             }
@@ -53,7 +54,7 @@ namespace Presentacion
                 Console.WriteLine(se.Message);
             }
             Console.ReadLine();
-            Environment.Exit(0);
+            //Environment.Exit(0);
         }
         static public void ButtonNot()
         {
