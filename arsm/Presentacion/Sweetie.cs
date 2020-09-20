@@ -31,7 +31,7 @@ namespace Presentacion
         string MessageYes = "addmesage.Text";
         string MessageNo = "Logro darle en el boton que dice NO...";
 
-        void ButtonYes()
+       void ButtonYes()
         {
 
             //Code for msg to whatsapp
@@ -102,7 +102,7 @@ namespace Presentacion
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show(nombre2.Text + " I looked at what you gave him, yes 💙 sweetie...", "Andrik Santos");
-            addmessage adms = new addmessage();
+            AddMessageForm adms = new AddMessageForm();
             adms.Show();
         }
         private void NO_Click(object sender, EventArgs e)

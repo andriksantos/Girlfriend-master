@@ -82,17 +82,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="addmessage.cs">
+    <Compile Include="AddMessageForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="addmessage.Designer.cs">
-      <DependentUpon>addmessage.cs</DependentUpon>
+    <Compile Include="AddMessageForm.Designer.cs">
+      <DependentUpon>AddMessageForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="nombre.cs">
+    <Compile Include="Nombre.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="nombre.Designer.cs">
-      <DependentUpon>nombre.cs</DependentUpon>
+    <Compile Include="Nombre.Designer.cs">
+      <DependentUpon>Nombre.cs</DependentUpon>
     </Compile>
     <Compile Include="Sweetie.cs">
       <SubType>Form</SubType>
@@ -102,11 +102,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="addmessage.resx">
-      <DependentUpon>addmessage.cs</DependentUpon>
+    <EmbeddedResource Include="AddMessageForm.resx">
+      <DependentUpon>AddMessageForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="nombre.resx">
-      <DependentUpon>nombre.cs</DependentUpon>
+    <EmbeddedResource Include="Nombre.resx">
+      <DependentUpon>Nombre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sweetie.resx">
       <DependentUpon>Sweetie.cs</DependentUpon>

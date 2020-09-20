@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Presentacion
 {
-    public partial class nombre : Form
+    public partial class Nombre : Form
     {
-        public nombre()
+        public Nombre()
         {
             InitializeComponent();
         }
@@ -33,7 +33,6 @@ namespace Presentacion
                 Sweetie sweetiee = new Sweetie();
                 sweetiee.Show();
                 this.Hide();
-
                 sweetiee.nombre2.Text = IngresarName.Text;
             }
         }

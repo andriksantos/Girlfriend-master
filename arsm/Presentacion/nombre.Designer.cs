@@ -1,6 +1,6 @@
 ﻿namespace Presentacion
 {
-    partial class nombre
+    partial class Nombre
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(nombre));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Nombre));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.IngresarName = new Guna.UI2.WinForms.Guna2TextBox();
             this.Ingresar = new Guna.UI2.WinForms.Guna2Button();

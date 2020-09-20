@@ -7,15 +7,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+//using WhatsAppApi;
+using System.Net;
+using System.Net.Http;
+using System.IO;
+using Presentacion;
 namespace Presentacion
 {
-    public partial class addmessage : Form
+    public partial class AddMessageForm : Form
     {
-        public addmessage()
+        public AddMessageForm()
         {
             InitializeComponent();
         }
+
+        
+
+        private void Ingresar_Click(object sender, EventArgs e)
+        {
+
+        }
+
 
     }
 }

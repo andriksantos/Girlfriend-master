@@ -65,4 +65,4 @@ G:\A R S M\C#\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.appl
 G:\A R S M\C#\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
 G:\A R S M\C#\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.exe
 G:\A R S M\C#\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.pdb
-G:\A R S M\C#\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.addmessage.resources
+G:\A R S M\C#\Girlfriend-EZ-master\arsm\Presentacion\obj\Debug\Presentacion.AddMessageForm.resources
