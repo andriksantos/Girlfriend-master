@@ -26,62 +26,22 @@ namespace Presentacion
         {
             AnimateWindow1.SetAnimateWindow(this);
             this.ShadowSweetie.SetShadowForm(this);
-            
         }
-        //METHODS
-
-        string MessageYes = ", I looked at what you gave him, YES! \n I 💙 sweetie...";
-        string MessageNo = ", I looked at what you gave him, NO! \n 💔💔💔💔💔";
-
-       void ButtonYes()
-        {
-            //Code for msg to whatsapp
-            string yourId = "ZxM359P9/Em2QSCtSMZtdWFuZHJpY2tzYW50b3MxX2F0X2dtYWlsX2RvdF9jb20=";
-            string yourMobile = "+50496679577";
-            string yourMessage = Dato.Valor + MessageYes;
-
-            try
-            {
-                string url = "https://NiceApi.net/API";
-                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
-                request.Method = "POST";
-                request.ContentType = "application/x-www-form-urlencoded";
-                request.Headers.Add("X-APIId", yourId);
-                request.Headers.Add("X-APIMobile", yourMobile);
-                using (StreamWriter streamOut = new StreamWriter(request.GetRequestStream()))
-                {
-                    streamOut.Write(yourMessage);
-                }
-                using (StreamReader streamIn = new StreamReader(request.GetResponse().GetResponseStream()))
-                {
-                    Console.WriteLine(streamIn.ReadToEnd());
-                }
-            }
-            catch (SystemException se)
-            {
-                MessageBox.Show("You need conection to internet for used this application...", "Sweetie ❤");
-                Console.WriteLine(se.Message);
-            }
-            Console.ReadLine();
-            Environment.Exit(0);
-        }
-
-        void ButtonNot()
-        {
-            MessageBox.Show(Dato.Valor + MessageNo, "Andrik Santos");
-        }
-
         //BUTTONS
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(Dato.Valor + MessageYes , "Andrik Santos");
+            MessageBox.Show(Dato.Valor + Dato.MessageYES , "Andrik Santos");
             AddMessageForm adms = new AddMessageForm();
             adms.Show();
             this.Hide();
         }
         private void NO_Click(object sender, EventArgs e)
         {
-            ButtonNot();
+            Dato.ButtonNot();
+        }
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            Dato.ButtonYes();
         }
         private void button2_MouseEnter(object sender, EventArgs e)
         {
@@ -89,11 +49,6 @@ namespace Presentacion
             int newX = r.Next(0, this.Size.Width - NO.Size.Width);
             int newY = r.Next(0, this.Size.Height - NO.Size.Height);
             NO.Location = new Point(newX, newY);
-        }
-
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-            ButtonYes();
         }
     }
 }

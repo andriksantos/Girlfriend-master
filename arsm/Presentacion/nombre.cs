@@ -32,9 +32,9 @@ namespace Presentacion
             {
                 Sweetie sweetiee = new Sweetie();
                 sweetiee.Show();
-                this.Hide();
                 Dato.Valor = IngresarName.Text;
                 sweetiee.nombre2.Text = Dato.Valor;
+                this.Hide();
             }
         }
         //BUTTONS
