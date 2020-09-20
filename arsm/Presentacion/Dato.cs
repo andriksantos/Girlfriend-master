@@ -19,14 +19,16 @@ namespace Presentacion
         static public string MessageNO = ", I looked at what you gave him, NO! \n 💔 💔 💔 💔 💔";
         static public string MessageError = "You need conection to internet for used this application...";
         static public string MessageEnterName = "Sweetie enter your Name first...";
+        static public string MessageEnterMessage = "Sweetie enter your message first...";
         static public string ADDmesage;
+        static public string nextMSG = "wrote the following message";
 
         //METHOD OF CLICK ON BUTTON YES
         static public void ButtonYes(){
-            //Code for msg to whatsapp
-            string yourId = "ZxM359P9/Em2QSCtSMZtdWFuZHJpY2tzYW50b3MxX2F0X2dtYWlsX2RvdF9jb20=";
-            string yourMobile = "+50496679577";
-            string yourMessage = Dato.Valor + " Writing the next message... " +  Dato.ADDmesage ;
+        //Code for msg to whatsapp
+        string yourId = "ZxM359P9/Em2QSCtSMZtdWFuZHJpY2tzYW50b3MxX2F0X2dtYWlsX2RvdF9jb20=";
+        string yourMobile = "+50496679577";
+        string yourMessage = Dato.Valor + Dato.nextMSG +  Dato.ADDmesage ;
 
             try
             {

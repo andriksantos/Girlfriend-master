@@ -29,8 +29,15 @@ namespace Presentacion
 
         private void Ingresar_Click(object sender, EventArgs e)
         {
-            Dato.ADDmesage =  addmesage.Text;
-            Dato.ButtonYes();
+            if (addmesage.Text == "")
+            {
+                MessageBox.Show(Dato.MessageEnterMessage, "Hi ❤, First!");
+            }
+            else
+            {
+                Dato.ADDmesage =  addmesage.Text;
+                Dato.ButtonYes();
+            }
         }
 
     }
