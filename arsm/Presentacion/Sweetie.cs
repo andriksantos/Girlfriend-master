@@ -12,6 +12,7 @@ using System.Net;
 using System.Net.Http;
 using System.IO;
 using Presentacion;
+using System.Reflection;
 
 namespace Presentacion
 {
@@ -25,6 +26,10 @@ namespace Presentacion
         private void Sweetie_Load(object sender, EventArgs e)
         {
             this.ShadowSweetie.SetShadowForm(this);
+        }
+        private void ButtonYesOrNot()
+        {
+
         }
         //BUTTONS
         private void button1_Click(object sender, EventArgs e)
@@ -41,16 +46,12 @@ namespace Presentacion
             this.Hide();
             adms.Show();
         }
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-            Dato.ButtonYes();
-        }
         private void button2_MouseEnter(object sender, EventArgs e)
         {
             //MOVE THE BUTTON NO WITH THE MOUSE
-            int newX = r.Next(0, this.Size.Width - NO.Size.Width);
-            int newY = r.Next(0, this.Size.Height - NO.Size.Height);
-            NO.Location = new Point(newX, newY);
+            //int newX = r.Next(0, this.Size.Width - NO.Size.Width);
+            //int newY = r.Next(0, this.Size.Height - NO.Size.Height);
+            //NO.Location = new Point(newX, newY);
         }
     }
 }

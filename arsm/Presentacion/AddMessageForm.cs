@@ -41,6 +41,8 @@ namespace Presentacion
                 Dato.ButtonYes();
                 Sendmsg.Text = "Message sent 💌";
                 CerrarApp.Visible = true;
+                addmesage.Text = "";
+                addmesage.Focus();
             }
         }
         private void guna2ControlBox1_Click(object sender, EventArgs e)
