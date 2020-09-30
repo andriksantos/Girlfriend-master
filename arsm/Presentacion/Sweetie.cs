@@ -36,7 +36,10 @@ namespace Presentacion
         }
         private void NO_Click(object sender, EventArgs e)
         {
-            Dato.ButtonNot();
+            MessageBox.Show(Dato.Valor + Dato.MessageNO, "Andrik Santos");
+            AddMessageForm adms = new AddMessageForm();
+            this.Hide();
+            adms.Show();
         }
         private void guna2Button2_Click(object sender, EventArgs e)
         {
