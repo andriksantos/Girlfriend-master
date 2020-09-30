@@ -27,10 +27,6 @@ namespace Presentacion
         {
             this.ShadowSweetie.SetShadowForm(this);
         }
-        private void ButtonYesOrNot()
-        {
-
-        }
         //BUTTONS
         private void button1_Click(object sender, EventArgs e)
         {
@@ -38,6 +34,7 @@ namespace Presentacion
             AddMessageForm adms = new AddMessageForm();
             this.Hide();
             adms.Show();
+            Dato.MessageYesOrNot = " Say YES! ❤";
         }
         private void NO_Click(object sender, EventArgs e)
         {
@@ -45,6 +42,7 @@ namespace Presentacion
             AddMessageForm adms = new AddMessageForm();
             this.Hide();
             adms.Show();
+            Dato.MessageYesOrNot = " Say NOT! 💔";
         }
         private void button2_MouseEnter(object sender, EventArgs e)
         {
