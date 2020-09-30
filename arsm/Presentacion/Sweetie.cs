@@ -47,9 +47,9 @@ namespace Presentacion
         private void button2_MouseEnter(object sender, EventArgs e)
         {
             //MOVE THE BUTTON NO WITH THE MOUSE
-            //int newX = r.Next(0, this.Size.Width - NO.Size.Width);
-            //int newY = r.Next(0, this.Size.Height - NO.Size.Height);
-            //NO.Location = new Point(newX, newY);
+            int newX = r.Next(0, this.Size.Width - NO.Size.Width);
+            int newY = r.Next(0, this.Size.Height - NO.Size.Height);
+            NO.Location = new Point(newX, newY);
         }
     }
 }
